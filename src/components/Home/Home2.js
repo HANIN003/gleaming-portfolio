@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/Avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,8 +16,9 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I've always had an interest in programming and after many years I
-              have finally took the plunge into the world of computer languages. Now
-              I am eager to learn more and develop my skillset to the fullest.
+              have finally took the plunge into the world of computer languages.
+              Now I am eager to learn more and develop my skillset to the
+              fullest.
               <br />
               <br />
               I've study some of the programmin languages like
@@ -36,7 +34,9 @@ function Home2() {
               </i>
               <br />
               <br />I also apply my passion for developing products with{" "}
-              <b className="purple">Node.js</b> and
+              <b className="purple">Node.js</b>,{" "}
+              <b className="purple">Express.js</b>,{" "}
+              <b className="purple">Apollo</b> and
               <i>
                 <b className="purple">
                   {" "}

@@ -1,15 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Particle from "../Particle";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import PlaceIcon from "@mui/icons-material/Place";
 
 function Contact() {
   return (
     <section>
       <Container fluid className="contact-section">
+        <Particle />
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
@@ -41,14 +42,6 @@ function Contact() {
                   >
                     nathan.hanisch86@gmail.com
                   </a>
-                </div>
-                <div>
-                  <PlaceIcon
-                    color="secondary"
-                    className="con_ico"
-                    sx={{ fontSize: 45 }}
-                  />
-                  <p className="con-det"></p>
                 </div>
               </div>
               <h1>FIND ME ON</h1>
