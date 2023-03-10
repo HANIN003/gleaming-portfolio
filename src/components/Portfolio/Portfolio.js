@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import daam from "../../assets/DAAM-Screenshot.png";
 import curious from "../../assets/Curious-Appetite.png";
 import google from "../../assets/Google-Book-Search.png";
+import travel from "../../assets/Travel-Planning.png";
 
 function Portfolio() {
   return (
@@ -48,6 +49,17 @@ function Portfolio() {
               techstack="JS | Apollo | Node | MongoDB"
               ghLink="https://github.com/HANIN003/dont-get-merned"
               link="https://mysterious-bastion-01744.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="portfolio-card">
+            <PortfolioCard
+              imgPath={travel}
+              title="Travel-Planning-App"
+              description="A project demonstrating an app that allows users to search for a location for their vacation, set a budget and save their trip for later viewing. "
+              techstack="JS | React | Node.js | MongoDB"
+              ghLink="https://github.com/julianbenchimol/trip-budget-manager"
+              link="https://packandgo.herokuapp.com/"
             />
           </Col>
         </Row>
