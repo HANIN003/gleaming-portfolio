@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -10,7 +10,7 @@ function Contact() {
   return (
     <section>
       <Container fluid className="contact-section">
-        <Particle />
+        {/* <Particle /> */}
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
@@ -19,21 +19,13 @@ function Contact() {
               </h1>
               <div className="contact">
                 <div>
-                  <PhoneIcon
-                    color="secondary"
-                    className="con_ico"
-                    sx={{ fontSize: 45 }}
-                  />
+                  <PhoneIcon className="con_ico" sx={{ fontSize: 45 }} />
                   <a href="tel:+6055218392" className="con-det">
                     +605 521 8392
                   </a>
                 </div>
                 <div>
-                  <EmailIcon
-                    className="con_ico"
-                    color="secondary"
-                    sx={{ fontSize: 45 }}
-                  />
+                  <EmailIcon className="con_ico" sx={{ fontSize: 45 }} />
                   <a
                     href="mailto:nathan.hanisch86@gmail.com"
                     target="_blank"
