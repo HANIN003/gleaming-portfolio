@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import PortfolioCard from "./PortfolioCards";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import daam from "../../assets/DAAM-Screenshot.png";
 import curious from "../../assets/Curious-Appetite.png";
 import google from "../../assets/Google-Book-Search.png";
@@ -10,7 +10,7 @@ import travel from "../../assets/Travel-Planning.png";
 function Portfolio() {
   return (
     <Container fluid className="portfolio-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <h1 className="portfolio-heading">
           My Recent <strong className="purple">Works </strong>
