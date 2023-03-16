@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/Avatar.svg";
+import myImg from "../../assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -12,7 +12,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME INTRODUCE <span className="purple"> MYSELF </span>
+              LET ME INTRODUCE <span className="gold"> MYSELF </span>
             </h1>
             <p className="home-about-body">
               I've always had an interest in programming and after many years I
@@ -21,31 +21,31 @@ function Home2() {
               fullest.
               <br />
               <br />
-              I've study some of the programmin languages like
+              I have study some of the programming languages like
               <i>
-                <b className="purple"> Javascript. </b>
+                <b className="gold"> Javascript. </b>
               </i>
               <br />
               <br />
               My interest now is building my&nbsp;
               <i>
-                <b className="purple">knowledge and experience </b> to further
-                my potential in this field.
+                <b className="gold">knowledge and experience </b> to further my
+                potential in this field.
               </i>
               <br />
               <br />I also apply my passion for developing products with{" "}
-              <b className="purple">Node.js</b>,{" "}
-              <b className="purple">Express.js</b>,{" "}
-              <b className="purple">Apollo</b> and
+              <b className="gold">Node.js</b>,{" "}
+              <b className="gold">Express.js</b>, <b className="gold">Apollo</b>{" "}
+              and
               <i>
-                <b className="purple">
+                <b className="gold">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="gold"> React.js</b>
               </i>
             </p>
           </Col>
@@ -59,7 +59,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="gold">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

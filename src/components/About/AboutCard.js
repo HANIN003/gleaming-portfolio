@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaHiking, FaGamepad, FaPlane, FaCriticalRole } from "react-icons/fa";
+import { MdFamilyRestroom } from "react-icons/md";
 
 function AboutCard() {
   return (
@@ -10,28 +11,31 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi there, I'm <span className="purple">Nate Hanisch </span>
             from <span className="purple"> Connecticut.</span>
-            <br />I am recent graduate from the UConn Full Stack Flex Program.
-            I've always had an interest in coding and an opportunity presented
-            itself with a Bootcamp program, so I jumped right in. I've spent my
-            career in television but I am ready to expand my field of knowledge
-            and I hope this is the next direction my career will move forward
-            in.
+            <br />I am a recent graduate from the UConn Full Stack Flex Program.
+            I've always had an interest in coding and when the opportunity
+            presented itself with a Bootcamp program, I jumped right in. I've
+            spent my entire career in television but I am ready to expand my
+            field of knowledge and I hope this is the next direction my career
+            will move forward in.
             <br />
             <br />
             Apart from coding, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Outdoor Adventures
+              <FaHiking /> Outdoor Adventures
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Video Games and Board Games
+              <FaGamepad /> Playing Video Games and Board Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling
+              <FaPlane /> Traveling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Spending Time With Family
+              <MdFamilyRestroom /> Spending Time With Family
+            </li>
+            <li className="about-activity">
+              <FaCriticalRole /> And A Huge Fan of Critical Role
             </li>
           </ul>
         </blockquote>
