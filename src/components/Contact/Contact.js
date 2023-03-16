@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import Particle from "../Particle";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -10,12 +9,11 @@ function Contact() {
   return (
     <section>
       <Container fluid className="contact-section">
-        {/* <Particle /> */}
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
               <h1>
-                Feel free to <span className="purple">connect </span>with me
+                Feel free to <span className="gold">connect </span>with me
               </h1>
               <div className="contact">
                 <div>

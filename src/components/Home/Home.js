@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../assets/Bio-Pic.jpg";
-// import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -9,7 +8,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        {/* <Particle /> */}
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -34,7 +32,7 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="bio pic"
-                className="img-fluid"
+                className="img-fluid bio-pic"
                 style={{ maxHeight: "450px" }}
               />
             </Col>

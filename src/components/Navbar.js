@@ -3,13 +3,13 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+
 import { MdOutlineContactMail } from "react-icons/md";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -40,9 +40,6 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">

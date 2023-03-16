@@ -13,7 +13,7 @@ function Portfolio() {
       {/* <Particle /> */}
       <Container>
         <h1 className="portfolio-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="gold">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few applications I've worked on recently.
@@ -56,7 +56,7 @@ function Portfolio() {
             <PortfolioCard
               imgPath={travel}
               title="Travel-Planning-App"
-              description="A project demonstrating an app that allows users to search for a location for their vacation, set a budget and save their trip for later viewing. "
+              description="A group project demonstrating an app that allows users to search for a location for their vacation, set a budget and save their trip for later viewing. "
               techstack="JS | React | Node.js | MongoDB"
               ghLink="https://github.com/julianbenchimol/trip-budget-manager"
               link="https://packandgo.herokuapp.com/"
