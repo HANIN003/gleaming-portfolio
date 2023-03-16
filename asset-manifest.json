@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gleaming-portfolio/static/css/main.d8ca9318.css",
-    "main.js": "/gleaming-portfolio/static/js/main.f735daa7.js",
+    "main.css": "/gleaming-portfolio/static/css/main.b0cf4913.css",
+    "main.js": "/gleaming-portfolio/static/js/main.1baa5e35.js",
     "static/js/787.d6271767.chunk.js": "/gleaming-portfolio/static/js/787.d6271767.chunk.js",
     "static/media/Curious-Appetite.png": "/gleaming-portfolio/static/media/Curious-Appetite.a6f4d8c0b269386f095a.png",
     "static/media/Bio-Pic.jpg": "/gleaming-portfolio/static/media/Bio-Pic.4ccae7a34cd3ed8e56c0.jpg",
     "static/media/Google-Book-Search.png": "/gleaming-portfolio/static/media/Google-Book-Search.8ccd1e204e23659e17fd.png",
-    "static/media/About-Image.png": "/gleaming-portfolio/static/media/About-Image.c73c81248d7faf8fcb1c.png",
-    "static/media/New-Resume.pdf": "/gleaming-portfolio/static/media/New-Resume.1f44cc6008b0837fc3f5.pdf",
+    "static/media/About-Image.png": "/gleaming-portfolio/static/media/About-Image.5093f53463ee88647c5a.png",
+    "static/media/Avatar.png": "/gleaming-portfolio/static/media/Avatar.ee76505a9d6f87f222b5.png",
     "static/media/DAAM-Screenshot.png": "/gleaming-portfolio/static/media/DAAM-Screenshot.e7b1c2678ec658e818c2.png",
+    "static/media/New-Resume.pdf": "/gleaming-portfolio/static/media/New-Resume.ac9e3e22e62e9e2d7109.pdf",
     "static/media/Travel-Planning.png": "/gleaming-portfolio/static/media/Travel-Planning.ae57445c0e952073dd9c.png",
-    "static/media/Avatar.svg": "/gleaming-portfolio/static/media/Avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "index.html": "/gleaming-portfolio/index.html",
-    "main.d8ca9318.css.map": "/gleaming-portfolio/static/css/main.d8ca9318.css.map",
-    "main.f735daa7.js.map": "/gleaming-portfolio/static/js/main.f735daa7.js.map",
+    "main.b0cf4913.css.map": "/gleaming-portfolio/static/css/main.b0cf4913.css.map",
+    "main.1baa5e35.js.map": "/gleaming-portfolio/static/js/main.1baa5e35.js.map",
     "787.d6271767.chunk.js.map": "/gleaming-portfolio/static/js/787.d6271767.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ca9318.css",
-    "static/js/main.f735daa7.js"
+    "static/css/main.b0cf4913.css",
+    "static/js/main.1baa5e35.js"
   ]
 }
